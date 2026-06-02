@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CS2 | Guia de Treinamento e Estratégias</title>
+    <style>
+        /* Reset básico e Definições de Cores */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background-color: #121316;
+            color: #eeeeee;
+            line-height: 1.6;
+        }
+
+        /* Cabeçalho */
+        header {
+            background: linear-gradient(135deg, #de6609 0%, #b34200 100%);
+            padding: 40px 20px;
+            text-align: center;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+        }
+
+        header h1 {
+            font-size: 2.5rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: #ffffff;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.1rem;
+            color: #f0f0f0;
+        }
+
+        /* Conteúdo Principal */
+        main {
+            max-width: 1000px;
+            margin: 40px auto;
+            padding: 0 20px;
+        }
+
+        .intro {
+            text-align: center;
+            margin-bottom: 50px;
+        }
+
+        .intro h2 {
+            color: #de6609;
+            margin-bottom: 15px;
+        }
+
+        /* Grade de Cards */
+        .grid-dicas {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            background-color: #1c1e22;
+            border-left: 4px solid #de6609;
+            border-radius: 4px;
+            padding: 25px;
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 5px 15px rgba(222, 102, 9, 0.2);
+        }
+
+        .card h3 {
+            color: #ffffff;
+            margin-bottom: 12px;
+            font-size: 1.3rem;
+        }
+
+        .card p {
+            color: #cccccc;
+            font-size: 0.95rem;
+        }
+
+        /* Rodapé */
+        footer {
+            text-align: center;
+            padding: 30px 20px;
+            margin-top: 60px;
+            background-color: #0b0c0e;
+            border-top: 1px solid #222;
+            font-size: 0.9rem;
+            color: #777;
+        }
+
+        footer a {
+            color: #de6609;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Counter-Strike 2</h1>
+        <p>Estratégias, Treinamento e Evolução Tática</p>
+    </header>
+
+    <main>
+        <section class="intro">
+            <h2>Domine o Jogo Legitimamente</h2>
+            <p>O caminho para o Global Elite ou alto High Level na Gamers Club exige dedicação, mira e conhecimento tático. Abaixo estão os pilares fundamentais para melhorar sua gameplay no CS2.</p>
+        </section>
+
+        <section class="grid-dicas">
+            <div class="card">
+                <h3>1. Controle de Recuo (Spray)</h3>
+                <p>As mecânicas de subida das armas mudaram sutilmente no CS2. Pratique diariamente em mapas de oficina (Workshop) focados em reflexo e spray control para automatizar sua memória muscular.</p>
+            </div>
+
+            <div class="card">
+                <h3>2. Estudo de Smokes (Granadas)</h3>
+                <p>Com o novo sistema de fumaça volumétrica e dinâmica, entender como as smokes reagem a granadas explosivas e tiros é vital. Aprenda os novos "lineups" para isolar posições bomb-sites.</p>
+            </div>
+
+            <div class="card">
+                <h3>3. Crosshair Placement</h3>
+                <p>Mantenha sua mira sempre na altura da cabeça dos adversários e colada nas quinas onde eles podem surgir. Evite andar olhando para o chão; a mira correta reduz seu tempo de reação pela metade.</p>
+            </div>
+
+            <div class="card">
+                <h3>4. Comunicação Eficiente</h3>
+                <p>Passe calas curtas e precisas: localização, quantidade de inimigos e dano causado. Um time que se comunica bem vence mapas mesmo contra jogadores tecnicamente superiores.</p>
+            </div>
+
+            <div class="card">
+                <h3>5. Economia do Jogo</h3>
+                <p>Saber quando fazer Eco, Forçado ou Buy Completo define o ritmo da partida. Jogue em sincronia financeira com sua equipe para não quebrar a economia do time nos rounds decisivos.</p>
+            </div>
+
+            <div class="card">
+                <h3>6. Análise de Demos</h3>
+                <p>Assista aos seus próprios replays para identificar erros de posicionamento, decisões precipitadas ou brechas que você deixa para os adversários aproveitarem.</p>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Criado para o GitHub Pages | Focado na evolução justa dentro do cenário de esports.</p>
+    </footer>
+
+</body>
+</html>
